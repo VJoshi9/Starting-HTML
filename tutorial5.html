@@ -10,14 +10,16 @@
 <body>
     <h2>This is forms tutorial</h2>
     <form action="backend.php">
+        <label for="name"> Name</label>
        <div>
             Name: <input type="text" name="myName">
        </div> 
        <div>
         <br>
        </div>
-       <div>
-            Role: <input type="text" name="myRole">
+       <label for="role"> Role</label>
+        <div>
+            <input type="text" name="myRole" id="role">
        </div> 
        <div>
         <br>
@@ -56,6 +58,16 @@
         </div>
         <div>
            Write about yourself: <br><textarea name="myText" cols="90" rows="5"></textarea>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <label for="car">Car:</label>
+            <select name="myCar" id="car">
+                <option value="Ford" selected>Freestyle</option>
+                <option value="Maruti" >AltoK10</option>
+            </select>
         </div>
         <div>
             <br>
